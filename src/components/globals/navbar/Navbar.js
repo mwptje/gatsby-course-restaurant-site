@@ -8,17 +8,15 @@ export default class Navbar extends Component {
   state = {
     navbarOpen: false,
   }
-
-  handelNavbar = () => {
+  handleNavbar = () => {
     this.setState(() => {
       return { navbarOpen: !this.state.navbarOpen }
     })
   }
-
   render() {
     return (
       <NavWrapper>
-        <NavbarHeader handelNavbar={this.handelNavbar} />
+        <NavbarHeader handleNavbar={this.handleNavbar} />
         <NavbarLinks navbarOpen={this.state.navbarOpen} />
         <NavbarIcons />
       </NavWrapper>

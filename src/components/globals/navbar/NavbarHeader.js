@@ -10,7 +10,7 @@ export default class NavbarHeader extends Component {
     const { handleNavbar } = this.props
     return (
       <HeaderWrapper>
-        <Link to=".">
+        <Link to="/">
           <img src={logo} alt="company name" />
         </Link>
         <FaAlignRight
@@ -30,7 +30,7 @@ const HeaderWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   .toggle-icon {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     color: ${styles.colors.mainYellow};
     cursor: pointer;
   }
