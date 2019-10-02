@@ -4,12 +4,12 @@ import styled from "styled-components"
 import img from "../images/bcg/homeBcg.jpeg"
 
 // page header for the home page
-function HomeHeader({ img, header }) {
-  return <IndexHeader img={img}>hello from header</IndexHeader>
+function HomeHeader({ img, children }) {
+  return <IndexHeader img={img}>{children}</IndexHeader>
 }
 // page header for the other pages
-function PageHeader({ img, header }) {
-  return <DefaultHeader img={img}>hello from header</DefaultHeader>
+function PageHeader({ img, children }) {
+  return <DefaultHeader img={img}>{children}</DefaultHeader>
 }
 
 // creating a styled header element
