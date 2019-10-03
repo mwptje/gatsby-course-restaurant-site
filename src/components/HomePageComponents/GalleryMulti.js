@@ -6,7 +6,10 @@ import Img from "gatsby-image"
 
 const GET_IMAGES = graphql`
   {
-    getImages: allFile(filter: { relativeDirectory: { eq: "homeGallery" } }) {
+    getImages: allFile(
+      filter: { relativeDirectory: { eq: "homeGallery" } }
+      sort: { fields: relativePath, order: ASC }
+    ) {
       edges {
         node {
           childImageSharp {
