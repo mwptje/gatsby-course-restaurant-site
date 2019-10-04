@@ -51,7 +51,7 @@ export default function Gallery() {
               </div>
               <div className="item item-3">
                 <Img fluid={img3} />
-                <p className="info">awesome rice dish</p>
+                <p className="info">awesome couscous dish</p>
               </div>
             </GalleryWrapper>
           </Section>
