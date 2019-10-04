@@ -11,12 +11,9 @@ export default class QuickInfo extends Component {
         <Title message="let us tell you" title="our mission" />
         <QuickInfoWrapper>
           <p className="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
-            veritatis explicabo vitae, ipsum, officiis voluptatem laborum
-            aspernatur minima non culpa at ratione quod beatae impedit repellat?
-            At quos voluptatibus fuga sed molestias atque harum laborum? Cum
-            quas, quibusdam molestias sit incidunt praesentium minima, soluta
-            quis perspiciatis nobis hic, unde aut!
+            Following John Smilga's course on Gatsby Development - Using Gatsby
+            | React | Graphql. This project uses Contentful as a CMS provider
+            and Netlify as a hosting provider.
           </p>
           <Link to="/about" style={{ textDecoration: "none" }}>
             <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
