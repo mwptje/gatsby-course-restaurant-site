@@ -12,11 +12,8 @@ export default class QuickInfo extends Component {
         <QuickInfoWrapper>
           <p className="text">
             Following John Smilga's course on Gatsby Development - Using Gatsby
-            | React | Graphql.
-          </p>
-          <p className="text">
-            > This project uses Contentful as a CMS provider and Netlify as a
-            hosting provider.
+            | React | Graphql. This project uses Contentful as a CMS provider
+            and Netlify as a hosting provider.
           </p>
           <Link to="/about" style={{ textDecoration: "none" }}>
             <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
