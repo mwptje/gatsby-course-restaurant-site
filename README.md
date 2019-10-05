@@ -1,3 +1,16 @@
+<h1 align="center">
+  Restaurant site example based on John Smilga's course Gatsby Tutorial and Projects
+</h1>
+
+[Link to finished project](https://gatsby-course-restaurant-site.netlify.com/)
+
+This repository uses:
+
+* Gatsby
+* React
+* GraphQL
+* Contentful as a headless content server
+* A automatic deploy to Netlify can be used
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
